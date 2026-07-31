@@ -1,0 +1,56 @@
+# =========================
+# Dependências
+# =========================
+node_modules
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Build artifacts
+# =========================
+dist
+build
+out
+coverage
+
+# =========================
+# Git / metadata
+# =========================
+.git
+.gitignore
+README.md
+LICENSE
+
+# =========================
+# Local env / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Editors / OS
+# =========================
+.vscode
+.idea
+.DS_Store
+
+# =========================
+# Docker files (avoid recursion)
+# =========================
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# =========================
+# Logs / cache
+# =========================
+*.log
+.cache
+
+# =========================
+# Tests (optional)
+# =========================
+tests
+__tests__
